@@ -6,15 +6,13 @@ Problem Statement: Check whether given list of strings contains only alphabets o
 **Given a list of strings, check whether each string in list contains only alphabets or not
 using lambda expressions **
 **This exercise contains a class named AlphabetChecker with the following method:**
+
 +checkAlphabets(List<String>) : String
 -Should accept list of strings as input
 -Should return "Give proper input not empty list" if given list is empty
--Should check whether given list of strings contains all alphabets as charcters or
-not using lambda expressions
--Should return "Given list contains only alphabet strings" if list contains only
-alphabet strings
--Should return "Given list contains non alphabet strings" if list contains non
-alphabet strings
+-Should check whether given list of strings contains all alphabets as charcters or not using lambda expressions
+-Should return "Given list contains only alphabet strings" if list contains only alphabet strings
+-Should return "Given list contains non alphabet strings" if list contains non alphabet strings
 
 Example
 Sample Input:
@@ -39,6 +37,7 @@ strings
 using Predicate Functional Interface **
 **This exercise contains a class named PredicateFunctionalInterface with the following
 method:**
+
 +findPattern(List<String>) : List<String>
 -Should accept list of strings as input
 -Should find the list of strings which start with letter I in the given strings
