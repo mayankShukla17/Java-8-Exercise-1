@@ -1,7 +1,8 @@
-#Java 8 Exercise-1
+# Java 8 Exercise-1
+
 1. Program1
-# Problem Statement: Check whether given list of strings contains only alphabets or not
-##
+Problem Statement: Check whether given list of strings contains only alphabets or not
+
 **Given a list of strings, check whether each string in list contains only alphabets or not
 using lambda expressions **
 **This exercise contains a class named AlphabetChecker with the following method:**
@@ -14,7 +15,8 @@ not using lambda expressions
 alphabet strings
 -Should return "Given list contains non alphabet strings" if list contains non
 alphabet strings
-## Example
+
+Example
 Sample Input:
 [Java,code]
 Expected Output:
@@ -31,8 +33,8 @@ Expected Output:
 Give proper input not empty list
 
 2. Program2
-## Problem Statement: Find the list of strings which start with letter I in the given list of
-strings ##
+Problem Statement: Find the list of strings which start with letter I in the given list of
+strings
 **Given a list of strings, find the list of strings which start with letter I in the given strings
 using Predicate Functional Interface **
 **This exercise contains a class named PredicateFunctionalInterface with the following
@@ -43,7 +45,8 @@ method:**
 -Should return list of strings which start with letter I in the given strings as output
 -Should return empty list if no such string is found which start with letter I
 -Should avoid the redundancy among the strings in output
-## Example
+
+Example
 Sample Input:
 [Icecream,Water,Ice,Gas,Ice]
 Expected Output:
