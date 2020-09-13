@@ -21,12 +21,12 @@ Sample Input:
 [Java,code]
 Expected Output:
 Given list contains only alphabet strings
---------------------------------------------------------
+
 Sample Input:
 [Java!!,Code**]
 Expected Output:
 Given list contains non alphabet strings
---------------------------------------------------------
+
 Sample Input:
 []
 Expected Output:
@@ -51,12 +51,12 @@ Sample Input:
 [Icecream,Water,Ice,Gas,Ice]
 Expected Output:
 [Icecream,Ice]
---------------------------------------------------------
+
 Sample Input:
 [Java,C,C++,Java,C]
 Expected Output:
 []
---------------------------------------------------------
+
 Sample Input:
 []
 Expected Output:
