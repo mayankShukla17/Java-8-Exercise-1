@@ -1,8 +1,8 @@
 package com.stackroute;
 /*
 Program2
-        ## Problem Statement: Find the list of strings which start with letter I in the given list of
-        strings ##
+        Problem Statement: Find the list of strings which start with letter I in the given list of
+        strings
         **Given a list of strings, find the list of strings which start with letter I in the given strings
         using Predicate Functional Interface **
         **This exercise contains a class named PredicateFunctionalInterface with the following
@@ -13,17 +13,18 @@ Program2
         -Should return list of strings which start with letter I in the given strings as output
         -Should return empty list if no such string is found which start with letter I
         -Should avoid the redundancy among the strings in output
-        ## Example
+
+        Example
         Sample Input:
         [Icecream,Water,Ice,Gas,Ice]
         Expected Output:
         [Icecream,Ice]
-        --------------------------------------------------------
+
         Sample Input:
         [Java,C,C++,Java,C]
         Expected Output:
         []
-        --------------------------------------------------------
+
         Sample Input:
         []
         Expected Output:
@@ -43,7 +44,7 @@ public class PredicateFunctionalInterface {
     public static List<String> findPattern(List<String> list) {
         if (list.isEmpty())
             return list;
-        // Creating a Stream of Strings
+
         Stream<String> stream = convertListToStream(list);
         List<String> list1 = new ArrayList<>();
         stream.filter(string -> string.startsWith("I")).distinct().forEach(list1::add);

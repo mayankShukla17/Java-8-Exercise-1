@@ -1,8 +1,7 @@
 package com.stackroute;
 /*
 Program1
-        # Problem Statement: Check whether given list of strings contains only alphabets or not
-        ##
+        Problem Statement: Check whether given list of strings contains only alphabets or not
         **Given a list of strings, check whether each string in list contains only alphabets or not
         using lambda expressions **
         **This exercise contains a class named AlphabetChecker with the following method:**
@@ -15,17 +14,18 @@ Program1
         alphabet strings
         -Should return "Given list contains non alphabet strings" if list contains non
         alphabet strings
-        ## Example
+
+        Example
         Sample Input:
         [Java,code]
         Expected Output:
         Given list contains only alphabet strings
-        --------------------------------------------------------
+
         Sample Input:
         [Java!!,Code**]
         Expected Output:
         Given list contains non alphabet strings
-        --------------------------------------------------------
+
         Sample Input:
         []
         Expected Output:
@@ -40,8 +40,8 @@ public class AlphabetChecker {
         if (list.isEmpty())
             return "Give proper input not empty list";
         boolean result = false;
-        for (String s : list) {
-            if (isStringOnlyAlphabet(s))
+        for (String string : list) {
+            if (isStringOnlyAlphabet(string))
                 result = true;
             else
                 result = false;
